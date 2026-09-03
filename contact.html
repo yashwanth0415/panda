@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#000">
+  <title>Contact — Panda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header" id="top">
+  <div class="desktop-header">
+    <a class="brand" href="index.html" aria-label="Panda — The Brand Store">
+      <img src="assets/panda-logo.png" alt="Panda — The Brand Store">
+    </a>
+
+    <nav class="main-nav" aria-label="Primary navigation">
+      <a href="index.html" data-nav="home">HOME</a>
+      <a href="shop.html" data-nav="shop">SHOP</a>
+      <a href="men.html" data-nav="men">MEN</a>
+      <a href="women.html" data-nav="women">WOMEN</a>
+      <a href="new-arrivals.html" data-nav="new">NEW ARRIVALS</a>
+      <a href="brands.html" data-nav="brands">BRANDS</a>
+      <a href="about.html" data-nav="about">ABOUT US</a>
+      <a href="contact.html" data-nav="contact">CONTACT</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" data-action="search" aria-label="Search">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.7"/><path d="M16.2 16.2 21 21"/></svg>
+      </button>
+      <a class="icon-btn" href="account.html" aria-label="Account">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="7.8" r="3.5"/><path d="M5.2 20c.7-4 3.2-6 6.8-6s6.1 2 6.8 6"/></svg>
+      </a>
+      <a class="icon-btn cart-icon" href="cart.html" aria-label="Shopping cart">
+        <svg viewBox="0 0 24 24"><path d="M5.5 8.5h13l.9 12H4.6z"/><path d="M8.2 8.5V6.8a3.8 3.8 0 0 1 7.6 0v1.7"/></svg>
+        <span class="cart-badge">0</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="mobile-header">
+    <button class="mobile-menu-btn" data-action="menu" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <a class="mobile-brand" href="index.html" aria-label="Panda home">
+      <img src="assets/panda-logo.png" alt="Panda">
+    </a>
+
+    <div class="header-actions">
+      <button class="icon-btn" data-action="search" aria-label="Search">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.7"/><path d="M16.2 16.2 21 21"/></svg>
+      </button>
+      <a class="icon-btn cart-icon" href="cart.html" aria-label="Shopping cart">
+        <svg viewBox="0 0 24 24"><path d="M5.5 8.5h13l.9 12H4.6z"/><path d="M8.2 8.5V6.8a3.8 3.8 0 0 1 7.6 0v1.7"/></svg>
+        <span class="cart-badge">0</span>
+      </a>
+    </div>
+  </div>
+</header>
+<main><section class="page-hero"><div class="section-kicker">WE'RE HERE TO HELP</div><h1>CONTACT US</h1><p>Questions about a product, order or delivery? Reach our team.</p></section>
+<section class="contact-wrap"><div class="contact-cards"><div class="info-card"><strong>Customer Support</strong><span>Mon–Sat · 10 AM–7 PM</span></div><div class="info-card"><strong>Email</strong><span>support@pandastore.in</span></div><div class="info-card"><strong>Orders</strong><span>Track your order from your account.</span></div></div><div class="form-card" style="margin-top:30px"><div class="section-kicker">SEND A MESSAGE</div><h2 class="content-title">How can we help?</h2><form onsubmit="event.preventDefault();document.getElementById('toast').textContent='Message sent — we’ll get back to you soon.';document.getElementById('toast').classList.add('show');setTimeout(()=>document.getElementById('toast').classList.remove('show'),2200)"><div class="field"><label>NAME</label><input required></div><div class="field"><label>EMAIL</label><input type="email" required></div><div class="field"><label>MESSAGE</label><textarea required></textarea></div><button class="btn btn-dark full-btn">SEND MESSAGE</button></form></div></section></main>
+<button class="reviews-tab" data-action="reviews">★ REVIEWS</button><button class="chat-btn" id="chatBtn" aria-label="Customer support">−</button>
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand-column">
+      <img src="assets/panda-logo.png" alt="Panda — The Brand Store" class="footer-logo">
+      <p>THE BRAND STORE<br>STYLE. QUALITY. YOU.</p>
+      <div class="footer-socials" aria-label="Social links">
+        <a href="https://www.instagram.com/panda_exclusive_store/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="YouTube">YT</a>
+      </div>
+    </div>
+
+    <div class="footer-column">
+      <h4>SHOP</h4>
+      <a href="shop.html">Shop All</a>
+      <a href="men.html">Men</a>
+      <a href="women.html">Women</a>
+      <a href="new-arrivals.html">New Arrivals</a>
+      <a href="brands.html">Brands</a>
+    </div>
+
+    <div class="footer-column">
+      <h4>DISCOVER</h4>
+      <a href="lookbook.html">Lookbook</a>
+      <a href="journal.html">Journal</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="about.html">Our Story</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="footer-column">
+      <h4>HELP</h4>
+      <a href="account.html">My Account</a>
+      <a href="cart.html">Cart</a>
+      <a href="contact.html">Customer Support</a>
+      <a href="#">Shipping &amp; Delivery</a>
+      <a href="#">Returns &amp; Exchanges</a>
+      <a href="#">Privacy Policy</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 Panda — The Brand Store. All Rights Reserved.</span>
+    <div class="footer-legal">
+      <a href="#">Terms</a>
+      <a href="#">Privacy</a>
+      <a href="#">Cookies</a>
+    </div>
+  </div>
+</footer>
+<nav class="mobile-bottom-nav" aria-label="Mobile navigation">
+  <a href="index.html" data-nav="home"><span class="nav-icon">⌂</span><span>HOME</span></a>
+  <a href="shop.html" data-nav="shop"><span class="nav-icon">▦</span><span>SHOP</span></a>
+  <a href="new-arrivals.html" data-nav="new"><span class="nav-icon">♢</span><span>NEW ARRIVALS</span></a>
+  <a href="account.html" data-nav="account"><span class="nav-icon">♙</span><span>ACCOUNT</span></a>
+  <button class="mobile-more-btn" data-action="more"><span class="nav-icon">•••</span><span>MORE</span></button>
+</nav>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-inner">
+    <div class="drawer-head">
+      <img src="assets/panda-logo.png" alt="Panda">
+      <button data-action="close-menu" aria-label="Close menu">×</button>
+    </div>
+    <nav>
+      <a href="index.html">HOME</a><a href="shop.html">SHOP</a><a href="men.html">MEN</a><a href="women.html">WOMEN</a>
+      <a href="new-arrivals.html">NEW ARRIVALS</a><a href="brands.html">BRANDS</a><a href="about.html">ABOUT US</a><a href="contact.html">CONTACT</a>
+    </nav>
+  </div>
+</div>
+
+<div class="more-sheet" id="moreSheet" aria-hidden="true">
+  <div class="sheet-grab"></div>
+  <div class="sheet-head"><strong>MORE</strong><button data-action="close-more" aria-label="Close">×</button></div>
+  <a href="reviews.html">REVIEWS</a><a href="lookbook.html">LOOKBOOK</a><a href="journal.html">JOURNAL</a>
+  <a href="contact.html">CONTACT SUPPORT</a><a href="account.html">MY ACCOUNT</a>
+</div>
+
+<div class="search-overlay" id="searchOverlay" aria-hidden="true">
+  <div class="search-box">
+    <button class="close-search" data-action="close-search" aria-label="Close search">×</button>
+    <label for="globalSearch">SEARCH</label>
+    <input id="globalSearch" type="search" placeholder="Search sneakers, brands...">
+    <div class="search-hints">Try: Jordan · Nike · Air Force · New Arrivals</div>
+  </div>
+</div>
+
+<div class="reviews-modal" id="reviewsModal" aria-hidden="true">
+  <div class="reviews-dialog">
+    <div class="reviews-head">
+      <div><span class="section-kicker">CUSTOMER VOICES</span><h2>REVIEWS</h2></div>
+      <button data-action="close-reviews" aria-label="Close reviews">×</button>
+    </div>
+    <div class="rating-row"><span class="stars">★★★★★</span><strong>4.9 / 5</strong><span class="muted">1,248 verified customers</span></div>
+    <div class="review-list">
+      <article><div class="review-stars">★★★★★</div><strong>Rahul M.</strong><p>“The sneakers arrived fast and the packaging was excellent.”</p></article>
+      <article><div class="review-stars">★★★★★</div><strong>Ananya K.</strong><p>“Clean website, quick delivery and a great pair.”</p></article>
+      <article><div class="review-stars">★★★★★</div><strong>Vikram S.</strong><p>“Support was very responsive and helpful.”</p></article>
+    </div>
+    <a class="btn btn-dark full-btn" href="reviews.html">VIEW ALL REVIEWS</a>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>

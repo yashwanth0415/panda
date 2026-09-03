@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#000">
+  <title>Index — Panda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header" id="top">
+  <div class="desktop-header">
+    <a class="brand" href="index.html" aria-label="Panda — The Brand Store">
+      <img src="assets/panda-logo.png" alt="Panda — The Brand Store">
+    </a>
+
+    <nav class="main-nav" aria-label="Primary navigation">
+      <a href="index.html" data-nav="home">HOME</a>
+      <a href="shop.html" data-nav="shop">SHOP</a>
+      <a href="men.html" data-nav="men">MEN</a>
+      <a href="women.html" data-nav="women">WOMEN</a>
+      <a href="new-arrivals.html" data-nav="new">NEW ARRIVALS</a>
+      <a href="brands.html" data-nav="brands">BRANDS</a>
+      <a href="about.html" data-nav="about">ABOUT US</a>
+      <a href="contact.html" data-nav="contact">CONTACT</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" data-action="search" aria-label="Search">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.7"/><path d="M16.2 16.2 21 21"/></svg>
+      </button>
+      <a class="icon-btn" href="account.html" aria-label="Account">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="7.8" r="3.5"/><path d="M5.2 20c.7-4 3.2-6 6.8-6s6.1 2 6.8 6"/></svg>
+      </a>
+      <a class="icon-btn cart-icon" href="cart.html" aria-label="Shopping cart">
+        <svg viewBox="0 0 24 24"><path d="M5.5 8.5h13l.9 12H4.6z"/><path d="M8.2 8.5V6.8a3.8 3.8 0 0 1 7.6 0v1.7"/></svg>
+        <span class="cart-badge">0</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="mobile-header">
+    <button class="mobile-menu-btn" data-action="menu" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <a class="mobile-brand" href="index.html" aria-label="Panda home">
+      <img src="assets/panda-logo.png" alt="Panda">
+    </a>
+
+    <div class="header-actions">
+      <button class="icon-btn" data-action="search" aria-label="Search">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.7"/><path d="M16.2 16.2 21 21"/></svg>
+      </button>
+      <a class="icon-btn cart-icon" href="cart.html" aria-label="Shopping cart">
+        <svg viewBox="0 0 24 24"><path d="M5.5 8.5h13l.9 12H4.6z"/><path d="M8.2 8.5V6.8a3.8 3.8 0 0 1 7.6 0v1.7"/></svg>
+        <span class="cart-badge">0</span>
+      </a>
+    </div>
+  </div>
+</header>
+<main><section class="hero hero-slider" id="home" aria-label="Featured sneaker">
+  <div class="hero-copy">
+    <div class="eyebrow">PREMIUM SNEAKERS</div>
+    <h1>STEP UP YOUR<br><span>GAME</span></h1>
+    <p>Explore 100% authentic sneakers from Nike, Jordan &amp; more premium brands.</p>
+    <div class="hero-buttons">
+      <a class="btn btn-light" href="shop.html">SHOP NOW</a>
+      <a class="btn btn-outline" href="new-arrivals.html">EXPLORE COLLECTION</a>
+    </div>
+  </div>
+  <div class="hero-visual hero-shoe-slides" aria-hidden="true">
+    <div class="hero-shoe active"><img src="assets/hero-sneaker.jpg" alt=""></div>
+    <div class="hero-shoe"><img src="assets/product-jordan4.jpg" alt=""></div>
+    <div class="hero-shoe"><img src="assets/product-max270.jpg" alt=""></div>
+  </div>
+  <div class="hero-dots">
+    <button class="dot active" data-hero-dot="0" aria-label="Slide 1"></button>
+    <button class="dot" data-hero-dot="1" aria-label="Slide 2"></button>
+    <button class="dot" data-hero-dot="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="slide-timer"><span></span></div>
+</section>
+
+<section class="trust-strip">
+ <div class="trust-item"><div class="trust-symbol">✓</div><div><strong>100% AUTHENTIC</strong><span>Original &amp; Genuine Products</span></div></div>
+ <div class="trust-item"><div class="trust-symbol">▣</div><div><strong>FAST DELIVERY</strong><span>Quick &amp; Safe Delivery</span></div></div>
+ <div class="trust-item"><div class="trust-symbol">◇</div><div><strong>SECURE PAYMENT</strong><span>100% Secure Checkout</span></div></div>
+ <div class="trust-item"><div class="trust-symbol">◌</div><div><strong>CUSTOMER SUPPORT</strong><span>We're Here To Help You</span></div></div>
+</section>
+
+<section class="white-section reveal-section">
+  <div class="section-heading"><div><div class="section-kicker">SHOP BY COLLECTION</div><h2>TRENDING NOW</h2></div><a class="view-all" href="shop.html">VIEW ALL <span>→</span></a></div>
+  <div class="products">
+    <article class="product-card reveal" data-product="Air Jordan 1 Retro High OG"><button class="heart" data-action="heart">♡</button><a class="product-image-wrap" href="product.html?product=0"><img src="assets/product-jordan.jpg" alt="Air Jordan 1 Retro High OG"></a><div class="product-meta"><h3>Air Jordan 1 Retro High OG</h3><div class="price">₹12,499</div><button class="shop-product" data-action="cart">SHOP NOW</button></div></article>
+    <article class="product-card reveal" data-product="Nike Air Force 1 '07"><button class="heart" data-action="heart">♡</button><a class="product-image-wrap" href="product.html?product=1"><img src="assets/product-force.jpg" alt="Nike Air Force 1 '07"></a><div class="product-meta"><h3>Nike Air Force 1 '07</h3><div class="price">₹8,999</div><button class="shop-product" data-action="cart">SHOP NOW</button></div></article>
+    <article class="product-card reveal" data-product="Nike Air Max 270"><button class="heart" data-action="heart">♡</button><a class="product-image-wrap" href="product.html?product=2"><img src="assets/product-max270.jpg" alt="Nike Air Max 270"></a><div class="product-meta"><h3>Nike Air Max 270</h3><div class="price">₹11,499</div><button class="shop-product" data-action="cart">SHOP NOW</button></div></article>
+    <article class="product-card reveal" data-product="Air Jordan 4 Retro"><button class="heart" data-action="heart">♡</button><a class="product-image-wrap" href="product.html?product=3"><img src="assets/product-jordan4.jpg" alt="Air Jordan 4 Retro"></a><div class="product-meta"><h3>Air Jordan 4 Retro</h3><div class="price">₹17,999</div><button class="shop-product" data-action="cart">SHOP NOW</button></div></article>
+  </div>
+</section>
+
+<section class="black-edit">
+  <div class="black-edit-image" style="background-image:url('https://images.pexels.com/photos/11429535/pexels-photo-11429535.jpeg?cs=srgb&dl=pexels-adrian-schmidt-56315239-11429535.jpg&fm=jpg')"></div>
+  <div class="black-edit-copy"><div class="section-kicker">EDITORIAL PICK</div><h2>THE BLACK EDIT</h2><p>Clean monochrome pairs. Zero noise. Maximum presence.</p><a class="btn btn-outline" href="shop.html?q=black">SHOP ALL BLACK</a></div>
+</section>
+
+<section class="category-section">
+  <div class="section-heading"><div><div class="section-kicker">FIND YOUR LANE</div><h2>SHOP BY CATEGORY</h2></div></div>
+  <div class="category-editorial">
+    <a class="category-tile tall reveal" href="men.html"><img src="https://images.pexels.com/photos/28521267/pexels-photo-28521267.jpeg?cs=srgb&dl=pexels-ally-darous-547915538-28521267.jpg&fm=jpg" alt="Men's street sneaker style"><div><span>01</span><h3>MEN</h3><p>Street icons &amp; everyday rotation</p></div></a>
+    <a class="category-tile reveal" href="women.html"><img src="https://images.pexels.com/photos/12739976/pexels-photo-12739976.jpeg?cs=srgb&dl=pexels-sneepcrew-12739976.jpg&fm=jpg" alt="Women's white sneaker style"><div><span>02</span><h3>WOMEN</h3><p>Minimal pairs with maximum versatility</p></div></a>
+    <a class="category-tile reveal" href="new-arrivals.html"><img src="https://images.pexels.com/photos/48262/pexels-photo-48262.jpeg?cs=srgb&dl=pexels-hikaique-48262.jpg&fm=jpg" alt="Sneakers in motion"><div><span>03</span><h3>NEW ARRIVALS</h3><p>Fresh drops, just landed</p></div></a>
+  </div>
+</section>
+
+<section class="lookbook-section">
+  <div class="lookbook-heading"><div><div class="section-kicker">EDITORIAL / STYLE</div><h2>SHOP THE LOOK</h2><p>Inspired by sneaker culture, built for your rotation.</p></div><a class="view-all light-link" href="lookbook.html">VIEW LOOKBOOK <span>→</span></a></div>
+  <div class="lookbook-grid">
+    <a class="look-card reveal" href="lookbook.html"><img src="https://images.pexels.com/photos/28521267/pexels-photo-28521267.jpeg?cs=srgb&dl=pexels-ally-darous-547915538-28521267.jpg&fm=jpg" alt="Urban sneaker look"><div class="look-overlay"><small>01 / STREET</small><strong>MONOCHROME MOTION</strong><span>SHOP LOOK →</span></div></a>
+    <a class="look-card reveal" href="lookbook.html"><img src="https://images.pexels.com/photos/48262/pexels-photo-48262.jpeg?cs=srgb&dl=pexels-hikaique-48262.jpg&fm=jpg" alt="Sneakers in motion through rain"><div class="look-overlay"><small>02 / ENERGY</small><strong>MOVE DIFFERENT</strong><span>SHOP LOOK →</span></div></a>
+    <a class="look-card reveal" href="lookbook.html"><img src="https://images.pexels.com/photos/12739976/pexels-photo-12739976.jpeg?cs=srgb&dl=pexels-sneepcrew-12739976.jpg&fm=jpg" alt="White sneaker street style"><div class="look-overlay"><small>03 / CLEAN</small><strong>EVERYDAY ESSENTIALS</strong><span>SHOP LOOK →</span></div></a>
+    <a class="look-card reveal" href="lookbook.html"><img src="https://images.pexels.com/photos/11429535/pexels-photo-11429535.jpeg?cs=srgb&dl=pexels-adrian-schmidt-56315239-11429535.jpg&fm=jpg" alt="Black and white sneaker style"><div class="look-overlay"><small>04 / ICONIC</small><strong>THE CLASSIC EDIT</strong><span>SHOP LOOK →</span></div></a>
+  </div>
+</section>
+
+<section class="brand-bar">
+  <div class="section-kicker">SHOP OUR TOP BRANDS</div>
+  <div class="brand-marquee" aria-label="Top brands"><span>NIKE</span><i>•</i><span>JORDAN</span><i>•</i><span>ADIDAS</span><i>•</i><span>NEW BALANCE</span><i>•</i><span>ASICS</span><i>•</i><span>PUMA</span><i>•</i><span>NIKE</span><i>•</i><span>JORDAN</span><i>•</i></div>
+  <a class="brand-link" href="brands.html">EXPLORE ALL BRANDS →</a>
+</section>
+
+<section class="drops-section">
+  <div class="section-heading"><div><div class="section-kicker">JUST LANDED</div><h2>FRESH DROPS</h2></div><a class="view-all" href="new-arrivals.html">SEE ALL <span>→</span></a></div>
+  <div class="drop-layout">
+    <a class="drop-feature reveal" href="new-arrivals.html"><img src="https://images.pexels.com/photos/48262/pexels-photo-48262.jpeg?cs=srgb&dl=pexels-hikaique-48262.jpg&fm=jpg" alt="Fresh sneaker drop"><div><span>LIMITED ENERGY</span><h3>Made to move.</h3><p>Fresh silhouettes for the next rotation.</p><b>EXPLORE DROPS →</b></div></a>
+    <div class="mini-drops">
+      <a href="product.html?product=0" class="mini-drop"><img src="assets/product-jordan.jpg" alt="Air Jordan 1"><div><strong>Jordan 1 High</strong><span>₹12,499</span></div></a>
+      <a href="product.html?product=1" class="mini-drop"><img src="assets/product-force.jpg" alt="Air Force 1"><div><strong>Air Force 1 '07</strong><span>₹8,999</span></div></a>
+      <a href="product.html?product=2" class="mini-drop"><img src="assets/product-max270.jpg" alt="Air Max 270"><div><strong>Air Max 270</strong><span>₹11,499</span></div></a>
+    </div>
+  </div>
+</section>
+
+<section class="promise-band">
+ <div><span class="section-kicker">THE PANDA PROMISE</span><h2>Good pairs. Great service.</h2><p>Curated collections, secure checkout and a team that cares about every order.</p></div>
+ <div class="promise-points"><div><strong>01</strong><span>AUTHENTICITY-FIRST</span></div><div><strong>02</strong><span>QUICK DISPATCH</span></div><div><strong>03</strong><span>REAL SUPPORT</span></div></div>
+</section>
+
+<section class="reviews-section">
+  <div class="section-heading"><div><div class="section-kicker">CUSTOMER VOICES</div><h2>LOVED BY THE ROTATION</h2></div><button class="view-all" data-action="reviews">READ ALL REVIEWS <span>→</span></button></div>
+  <div class="review-carousel">
+    <article class="review-quote reveal"><div class="quote-stars">★★★★★</div><p>“Fast shipping, premium packaging and the pair looked even better in person.”</p><strong>Rahul M.</strong><span>VERIFIED BUYER</span></article>
+    <article class="review-quote reveal"><div class="quote-stars">★★★★★</div><p>“The experience feels premium from browsing to delivery. Super clean selection.”</p><strong>Ananya K.</strong><span>VERIFIED BUYER</span></article>
+    <article class="review-quote reveal"><div class="quote-stars">★★★★★</div><p>“Support was quick and helpful when I needed a size recommendation.”</p><strong>Vikram S.</strong><span>VERIFIED BUYER</span></article>
+  </div>
+</section>
+
+
+<section class="reels-section">
+  <div class="section-heading">
+    <div><div class="section-kicker">FROM OUR FEED</div><h2>PANDA REELS</h2></div>
+    <a class="view-all" href="https://www.instagram.com/panda_exclusive_store/" target="_blank" rel="noopener">FOLLOW @PANDA <span>↗</span></a>
+  </div>
+  <div class="reels-grid">
+    <article class="reel-card reveal">
+      <div class="reel-frame reel-embed"><iframe src="https://www.instagram.com/panda_exclusive_store/reel/DcoA8LGyFR4/embed" title="Panda Instagram Reel 1" loading="lazy" allowtransparency="true" frameborder="0" scrolling="no" allow="autoplay; encrypted-media; picture-in-picture"></iframe></div>
+      <div class="reel-meta"><strong>NEW DROP / STYLE</strong><a href="https://www.instagram.com/panda_exclusive_store/reel/DcoA8LGyFR4/" target="_blank" rel="noopener">OPEN ON INSTAGRAM ↗</a></div>
+    </article>
+    <article class="reel-card reveal">
+      <div class="reel-frame reel-embed"><iframe src="https://www.instagram.com/reel/DU6YK1QE_w5/embed" title="Panda Instagram Reel 2" loading="lazy" allowtransparency="true" frameborder="0" scrolling="no" allow="autoplay; encrypted-media; picture-in-picture"></iframe></div>
+      <div class="reel-meta"><strong>STREET / CULTURE</strong><a href="https://www.instagram.com/reel/DU6YK1QE_w5/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==" target="_blank" rel="noopener">OPEN ON INSTAGRAM ↗</a></div>
+    </article>
+    <article class="reel-card reveal">
+      <div class="reel-frame reel-embed"><iframe src="https://www.instagram.com/panda_exclusive_store/reel/DcL7rBEPt4N/embed" title="Panda Instagram Reel 3" loading="lazy" allowtransparency="true" frameborder="0" scrolling="no" allow="autoplay; encrypted-media; picture-in-picture"></iframe></div>
+      <div class="reel-meta"><strong>THE ROTATION</strong><a href="https://www.instagram.com/panda_exclusive_store/reel/DcL7rBEPt4N/" target="_blank" rel="noopener">OPEN ON INSTAGRAM ↗</a></div>
+    </article>
+  </div>
+</section>
+
+<section class="journal-section">
+ <div class="section-heading"><div><div class="section-kicker">PAN​DA JOURNAL</div><h2>THE SNEAKER EDIT</h2></div><a class="view-all" href="journal.html">READ THE JOURNAL <span>→</span></a></div>
+ <div class="journal-grid">
+   <a class="journal-card reveal" href="journal.html"><div class="journal-img" style="background-image:url('https://images.pexels.com/photos/28521267/pexels-photo-28521267.jpeg?cs=srgb&dl=pexels-ally-darous-547915538-28521267.jpg&fm=jpg')"></div><div class="journal-copy"><small>STYLE GUIDE</small><h3>How to build a monochrome sneaker rotation</h3><span>READ STORY →</span></div></a>
+   <a class="journal-card reveal" href="journal.html"><div class="journal-img" style="background-image:url('https://images.pexels.com/photos/11429535/pexels-photo-11429535.jpeg?cs=srgb&dl=pexels-adrian-schmidt-56315239-11429535.jpg&fm=jpg')"></div><div class="journal-copy"><small>CULTURE</small><h3>Why black-and-white sneakers never leave the rotation</h3><span>READ STORY →</span></div></a>
+   <a class="journal-card reveal" href="journal.html"><div class="journal-img" style="background-image:url('https://images.pexels.com/photos/12739976/pexels-photo-12739976.jpeg?cs=srgb&dl=pexels-sneepcrew-12739976.jpg&fm=jpg')"></div><div class="journal-copy"><small>ESSENTIALS</small><h3>Three everyday pairs worth owning</h3><span>READ STORY →</span></div></a>
+ </div>
+</section>
+
+<section class="newsletter">
+ <div><div class="section-kicker">PANDA INSIDER</div><h2>New drops. No noise.</h2><p>Get launch alerts, fresh arrivals and the occasional exclusive.</p></div>
+ <form onsubmit="event.preventDefault();document.getElementById('toast').textContent='You’re on the Panda list.';document.getElementById('toast').classList.add('show');setTimeout(()=>document.getElementById('toast').classList.remove('show'),1800);this.reset()"><input type="email" required placeholder="Email address"><button class="btn btn-light">JOIN US</button></form>
+</section></main>
+<button class="reviews-tab" data-action="reviews">★ REVIEWS</button><button class="chat-btn" id="chatBtn" aria-label="Customer support">−</button>
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand-column">
+      <img src="assets/panda-logo.png" alt="Panda — The Brand Store" class="footer-logo">
+      <p>THE BRAND STORE<br>STYLE. QUALITY. YOU.</p>
+      <div class="footer-socials" aria-label="Social links">
+        <a href="https://www.instagram.com/panda_exclusive_store/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="YouTube">YT</a>
+      </div>
+    </div>
+
+    <div class="footer-column">
+      <h4>SHOP</h4>
+      <a href="shop.html">Shop All</a>
+      <a href="men.html">Men</a>
+      <a href="women.html">Women</a>
+      <a href="new-arrivals.html">New Arrivals</a>
+      <a href="brands.html">Brands</a>
+    </div>
+
+    <div class="footer-column">
+      <h4>DISCOVER</h4>
+      <a href="lookbook.html">Lookbook</a>
+      <a href="journal.html">Journal</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="about.html">Our Story</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="footer-column">
+      <h4>HELP</h4>
+      <a href="account.html">My Account</a>
+      <a href="cart.html">Cart</a>
+      <a href="contact.html">Customer Support</a>
+      <a href="#">Shipping &amp; Delivery</a>
+      <a href="#">Returns &amp; Exchanges</a>
+      <a href="#">Privacy Policy</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 Panda — The Brand Store. All Rights Reserved.</span>
+    <div class="footer-legal">
+      <a href="#">Terms</a>
+      <a href="#">Privacy</a>
+      <a href="#">Cookies</a>
+    </div>
+  </div>
+</footer>
+<nav class="mobile-bottom-nav" aria-label="Mobile navigation">
+  <a href="index.html" data-nav="home"><span class="nav-icon">⌂</span><span>HOME</span></a>
+  <a href="shop.html" data-nav="shop"><span class="nav-icon">▦</span><span>SHOP</span></a>
+  <a href="new-arrivals.html" data-nav="new"><span class="nav-icon">♢</span><span>NEW ARRIVALS</span></a>
+  <a href="account.html" data-nav="account"><span class="nav-icon">♙</span><span>ACCOUNT</span></a>
+  <button class="mobile-more-btn" data-action="more"><span class="nav-icon">•••</span><span>MORE</span></button>
+</nav>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-inner">
+    <div class="drawer-head">
+      <img src="assets/panda-logo.png" alt="Panda">
+      <button data-action="close-menu" aria-label="Close menu">×</button>
+    </div>
+    <nav>
+      <a href="index.html">HOME</a><a href="shop.html">SHOP</a><a href="men.html">MEN</a><a href="women.html">WOMEN</a>
+      <a href="new-arrivals.html">NEW ARRIVALS</a><a href="brands.html">BRANDS</a><a href="about.html">ABOUT US</a><a href="contact.html">CONTACT</a>
+    </nav>
+  </div>
+</div>
+
+<div class="more-sheet" id="moreSheet" aria-hidden="true">
+  <div class="sheet-grab"></div>
+  <div class="sheet-head"><strong>MORE</strong><button data-action="close-more" aria-label="Close">×</button></div>
+  <a href="reviews.html">REVIEWS</a><a href="lookbook.html">LOOKBOOK</a><a href="journal.html">JOURNAL</a>
+  <a href="contact.html">CONTACT SUPPORT</a><a href="account.html">MY ACCOUNT</a>
+</div>
+
+<div class="search-overlay" id="searchOverlay" aria-hidden="true">
+  <div class="search-box">
+    <button class="close-search" data-action="close-search" aria-label="Close search">×</button>
+    <label for="globalSearch">SEARCH</label>
+    <input id="globalSearch" type="search" placeholder="Search sneakers, brands...">
+    <div class="search-hints">Try: Jordan · Nike · Air Force · New Arrivals</div>
+  </div>
+</div>
+
+<div class="reviews-modal" id="reviewsModal" aria-hidden="true">
+  <div class="reviews-dialog">
+    <div class="reviews-head">
+      <div><span class="section-kicker">CUSTOMER VOICES</span><h2>REVIEWS</h2></div>
+      <button data-action="close-reviews" aria-label="Close reviews">×</button>
+    </div>
+    <div class="rating-row"><span class="stars">★★★★★</span><strong>4.9 / 5</strong><span class="muted">1,248 verified customers</span></div>
+    <div class="review-list">
+      <article><div class="review-stars">★★★★★</div><strong>Rahul M.</strong><p>“The sneakers arrived fast and the packaging was excellent.”</p></article>
+      <article><div class="review-stars">★★★★★</div><strong>Ananya K.</strong><p>“Clean website, quick delivery and a great pair.”</p></article>
+      <article><div class="review-stars">★★★★★</div><strong>Vikram S.</strong><p>“Support was very responsive and helpful.”</p></article>
+    </div>
+    <a class="btn btn-dark full-btn" href="reviews.html">VIEW ALL REVIEWS</a>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
